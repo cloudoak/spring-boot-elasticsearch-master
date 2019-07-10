@@ -1,0 +1,85 @@
+{
+  "properties": [
+    {
+      "name": "spring.lenovo.elasticsearch.rest.uris",
+      "defaultValue": [
+        "http://localhost:9200"
+      ]
+    },
+    {
+      "name": "spring.lenovo.elasticsearch.rest.username",
+      "description": "Username used to access the Elasticsearch."
+    },
+    {
+      "name": "spring.lenovo.elasticsearch.rest.password",
+      "description": "Password used to access the Elasticsearch."
+    },
+    {
+      "name": "spring.lenovo.elasticsearch.rest.connectionTimeout",
+      "type": "java.lang.Integer",
+      "description": "Elasticsearch Rest connection Timeout.",
+      "defaultValue": 50000
+    },
+    {
+      "name": "spring.lenovo.elasticsearch.rest.readTimeout",
+      "type": "java.lang.Integer",
+      "description": "Elasticsearch Rest read Timeout.",
+      "defaultValue": 30000
+    },
+    {
+      "name": "spring.lenovo.elasticsearch.rest.maxConnTotal",
+      "type": "java.lang.Integer",
+      "description": "Elasticsearch Rest max Connection Total.",
+      "defaultValue": 100
+    },
+    {
+      "name": "spring.lenovo.elasticsearch.rest.maxConnPerRoute",
+      "type": "java.lang.Integer",
+      "description": "Elasticsearch Rest max Connection per route.",
+      "defaultValue": 200
+    },
+    {
+      "name": "spring.lenovo.elasticsearch.index.refresh_interval",
+      "type": "java.lang.String",
+      "description": "Elasticsearch Rest index refresh interval.",
+      "defaultValue": "1s"
+    },
+    {
+      "name": "spring.lenovo.elasticsearch.index.number_of_shards",
+      "type": "java.lang.Integer",
+      "description": "Elasticsearch Rest index number of shards.",
+      "defaultValue": 5
+    },
+    {
+      "name": "spring.lenovo.elasticsearch.index.number_of_replicas",
+      "type": "java.lang.Integer",
+      "description": "Elasticsearch Rest index number of replicas.",
+      "defaultValue": 1
+    },
+    {
+      "name": "spring.lenovo.elasticsearch.request.timeout",
+      "type": "java.lang.Integer",
+      "description": "Elasticsearch Rest request timeout.",
+      "defaultValue": 20000
+    },
+    {
+      "name": "spring.lenovo.elasticsearch.request.refreshPolicy",
+      "type": "java.lang.String",
+      "description": "Elasticsearch Rest request refresh policy.",
+      "defaultValue": "wait_for"
+    },
+
+    {
+      "name": "spring.lenovo.elasticsearch.request.waitForActiveShards",
+      "type": "java.lang.Integer",
+      "description": "Elasticsearch Rest request wait for active shards.",
+      "defaultValue": 2
+    },
+    {
+      "name": "spring.lenovo.elasticsearch.search.timeout",
+      "type": "java.lang.Integer",
+      "description": "Elasticsearch Rest search timeout.",
+      "defaultValue": 10000
+    }
+  ]
+}
