@@ -15,7 +15,7 @@ import java.util.*;
  */
 @Data
 @Component
-@ConfigurationProperties(prefix = "spring.lenovo.elasticsearch")
+@ConfigurationProperties(prefix = "spring.boot.elasticsearch.elasticsearch")
 public class ElasticsearchProperties {
 
     /**
