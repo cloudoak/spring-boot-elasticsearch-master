@@ -13,7 +13,7 @@ import org.springframework.stereotype.Component;
  */
 @Data
 @Component
-@ConfigurationProperties(prefix = "spring.lenovo.elasticsearch.request")
+@ConfigurationProperties(prefix = "spring.boot.elasticsearch.request")
 public class ElasticsearchRequestProperties {
 
     /**
