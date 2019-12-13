@@ -35,7 +35,7 @@ public class Logstash {
     /**
      * Current Service for Aspect point cut method to stat payload.
      */
-    @Pointcut("execution(* com.lenovo.cpm.elasticsearch.rest.service.*.*(..))")
+    @Pointcut("execution(* spring.boot.elasticsearch.rest.service.*.*(..))")
     private void payload(){
 
     }
