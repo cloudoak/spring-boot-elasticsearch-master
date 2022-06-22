@@ -43,7 +43,7 @@
 
     <properties>
         <spring-boot.version>2.1.6.RELEASE</spring-boot.version>
-        <elasticsearch.version>6.7.2</elasticsearch.version>
+        <elasticsearch.version>6.8.15</elasticsearch.version>
         <logback.version>1.2.3</logback.version>
         <spring.version>5.1.7.RELEASE</spring.version>
         <spring-boot-elasticsearch.version>1.0-SNAPSHOT</spring-boot-elasticsearch.version>
